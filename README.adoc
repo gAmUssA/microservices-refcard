@@ -1,0 +1,28 @@
+= Microservices with Hazelcast
+Viktor Gamov <viktor@hazelcast.com>, © 2017 Hazelcast, Inc.
+2017-03-13
+:revdate: 2017-03-13 22:24:51 -0600
+:linkattrs:
+:ast: &ast;
+:y: &#10003;
+:n: &#10008;
+:y: icon:check-sign[role="green"]
+:n: icon:check-minus[role="red"]
+:c: icon:file-text-alt[role="blue"]
+:toc: auto
+:toc-placement: auto
+:toc-position: right
+:toc-title: Table of content
+:toclevels: 3
+:idprefix:
+:idseparator: -
+:sectanchors:
+:icons: font
+:source-highlighter: highlight.js
+:highlightjs-theme: idea
+:experimental:
+
+https://app.codeship.com/projects/207758[image:https://app.codeship.com/projects/6bfb7a20-ea8a-0134-d7cf-0e4301b0d4b6/status?branch=master[Codeship Status for gAmUssA/microservices-refcard]]
+
+toc::[]
+
