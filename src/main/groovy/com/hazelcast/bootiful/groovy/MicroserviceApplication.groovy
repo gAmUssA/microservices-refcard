@@ -35,10 +35,10 @@ class MicroserviceApplication {
     Config getConfig(MapListener listener) {
         EntryListenerConfig listenerConfig = new EntryListenerConfig()
         listenerConfig.setIncludeValue(true).setImplementation(listener)
-        new XmlConfigBuilder()
+        def config = new XmlConfigBuilder()
                 .build()
-                .getMapConfig("my-cache")
-                .addEntryListenerConfig listenerConfig
+        config.getMapConfig("my-cache").addEntryListenerConfig listenerConfig
+        config
     }
 
     @Bean
