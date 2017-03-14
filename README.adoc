@@ -22,7 +22,9 @@ Viktor Gamov <viktor@hazelcast.com>, © 2017 Hazelcast, Inc.
 :highlightjs-theme: idea
 :experimental:
 
+
 https://app.codeship.com/projects/207758[image:https://app.codeship.com/projects/6bfb7a20-ea8a-0134-d7cf-0e4301b0d4b6/status?branch=master[Codeship Status for gAmUssA/microservices-refcard]]
+https://circleci.com/gh/gAmUssA/microservices-refcard[image:https://circleci.com/gh/gAmUssA/microservices-refcard/tree/master.png?style=shield&circle-token=1bdd28d833fbc6ed7eb89c17ae048a19e294053e[CircleCI Status for gAmUssA/microservices-refcard]]
 
 toc::[]
 

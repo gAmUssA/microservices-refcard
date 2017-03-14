@@ -1,0 +1,16 @@
+machine:
+  java:
+    version: oraclejdk8
+
+dependencies:
+  override:
+    - ./gradlew dependencies
+
+test:
+  override:
+    - ./gradlew test
+
+general:
+  artifacts:
+    - "build/libs/microservice-*.jar"
+    - "build/distributions/microservice.zip"
